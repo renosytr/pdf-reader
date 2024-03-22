@@ -1,6 +1,6 @@
-# tutorial_pdf_reader
+# PDF Reader with Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite.
+The PDF reader, which was built with Vue 3, is based on a library called [pdfjs-dist](https://www.npmjs.com/package/pdfjs-dist). Mozilla published this pdfjs-dist library as open source. We utilize this library to parse and display PDF files. This library's advantage rests in its ease of implementation. Because, once the PDF file is successfully parsed, we will receive an object as output. Then, We are free to manipulate and show this object on the HTML canvas.
 
 ## Recommended IDE Setup
 
